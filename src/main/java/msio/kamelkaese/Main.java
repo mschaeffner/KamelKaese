@@ -11,9 +11,12 @@ public class Main {
 
 		staticFileLocation("/public");
 
+		TextConverter converter = new TextConverter();
+		
 		post("/KamelKäse", (req, res) -> {
-			return new TextConverter(req.body()).convert();
+			return converter.convert(req.body());
 		});
+
 
 	}
 

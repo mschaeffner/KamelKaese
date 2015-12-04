@@ -14,8 +14,8 @@ public class TextConverterTest {
 
 		String input = "Die Donaudampfschifffahrtsgesellschaft ist ein Tochterunternehmen des Bahnsteigreparaturservice.";
 
-		TextConverter converter = new TextConverter(input);
-		String ouptut = converter.convert();
+		TextConverter converter = new TextConverter();
+		String ouptut = converter.convert(input);
 		
 		assertThat(ouptut, is("Die DonauDampfSchiffFahrtsGesellschaft ist ein TochterUnternehmen des BahnsteigReparaturService."));
 	}
