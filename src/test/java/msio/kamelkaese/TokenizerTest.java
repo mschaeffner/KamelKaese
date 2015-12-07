@@ -10,9 +10,9 @@ import org.junit.Test;
 
 public class TokenizerTest {
 
-	@Test(expected=NullPointerException.class)
+	@Test(expected=IllegalArgumentException.class)
 	public void testNullValue() {
-		assertThat(tokenize(null), is(Arrays.asList()));
+		tokenize(null);
 	}
 
 	@Test

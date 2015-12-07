@@ -7,6 +7,10 @@ import java.util.PrimitiveIterator;
 public class Tokenizer {
 
 	public static List<String> tokenize(String content) {
+		if(content == null) {
+			throw new IllegalArgumentException("content must not be null value.");
+		}
+		
 		List<String> result = new ArrayList<String>();
 
 		StringBuilder currentWord = new StringBuilder();
