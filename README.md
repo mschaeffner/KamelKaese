@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mschaeffner/KamelKaese.svg?branch=master)](https://travis-ci.org/mschaeffner/KamelKaese)
+
 # KamelKaese
 
 ## Howto
