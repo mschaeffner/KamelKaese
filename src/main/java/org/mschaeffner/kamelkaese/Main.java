@@ -1,4 +1,4 @@
-package msio.kamelkaese;
+package org.mschaeffner.kamelkaese;
 
 import static spark.Spark.post;
 import static spark.Spark.staticFileLocation;

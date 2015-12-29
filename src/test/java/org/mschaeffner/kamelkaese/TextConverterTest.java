@@ -1,4 +1,4 @@
-package msio.kamelkaese;
+package org.mschaeffner.kamelkaese;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;

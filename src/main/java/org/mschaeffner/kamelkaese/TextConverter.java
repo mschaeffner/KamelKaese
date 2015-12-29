@@ -1,4 +1,4 @@
-package msio.kamelkaese;
+package org.mschaeffner.kamelkaese;
 
 import java.io.IOException;
 import java.util.List;

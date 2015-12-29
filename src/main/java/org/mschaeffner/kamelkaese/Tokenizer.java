@@ -1,4 +1,4 @@
-package msio.kamelkaese;
+package org.mschaeffner.kamelkaese;
 
 import java.util.ArrayList;
 import java.util.List;

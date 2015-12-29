@@ -1,8 +1,8 @@
-package msio.kamelkaese;
+package org.mschaeffner.kamelkaese;
 
-import static msio.kamelkaese.Tokenizer.tokenize;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
+import static org.mschaeffner.kamelkaese.Tokenizer.tokenize;
 
 import java.util.Arrays;
 
